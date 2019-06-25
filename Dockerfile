@@ -26,7 +26,7 @@ COPY uwsgi.ini /etc/uwsgi/
 COPY supervisord.conf /etc/supervisord.conf
 
 # Prepare static dir
-COPY ./static/ /static
+#COPY ./static/ /static
 
 # Python server scripts
 COPY server.py /server.py
